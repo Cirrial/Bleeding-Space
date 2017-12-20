@@ -6,6 +6,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/08b7532bf5e9db0c2515/maintainability)](https://codeclimate.com/github/Cirrial/Bleeding-Space/maintainability)
 
+[![Coverage Status](https://coveralls.io/repos/github/Cirrial/Bleeding-Space/badge.svg?branch=master)](https://coveralls.io/github/Cirrial/Bleeding-Space?branch=master)
+
 [![Cirr](https://img.shields.io/badge/cirr-yes-blue.svg)](http://cirri.al)
 
 ## what is game
