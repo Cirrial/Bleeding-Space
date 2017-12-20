@@ -1,12 +1,17 @@
 # Bleeding Space
+## badges are fun
 [![Build Status](https://travis-ci.org/Cirrial/Bleeding-Space.svg?branch=master)](https://travis-ci.org/Cirrial/Bleeding-Space)
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-resentment.svg)](http://forthebadge.com)
+[![Dependencies](https://david-dm.org/Cirrial/Bleeding-Space.svg)](https://david-dm.org/Cirrial/Bleeding-Space)
 
-[![forthebadge](http://forthebadge.com/images/badges/contains-technical-debt.svg)](http://forthebadge.com)
+[![Maintainability](https://api.codeclimate.com/v1/badges/08b7532bf5e9db0c2515/maintainability)](https://codeclimate.com/github/Cirrial/Bleeding-Space/maintainability)
 
-[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
+[![Cirr](https://img.shields.io/badge/cirr-yes-blue.svg)](http://cirri.al)
 
-[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
+## what is game
 
 An upcoming webgame from the dude who made Shark Game and then did nothing with his life for several years
+
+## give money
+
+<a href='https://ko-fi.com/8d18a4431921c03' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
