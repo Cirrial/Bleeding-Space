@@ -12,7 +12,12 @@
 
 ## what is game
 
-An upcoming webgame from the dude who made Shark Game and then did nothing with his life for several years
+An upcoming webgame from the dude who made Shark Game and then did nothing with his life for several years.
+
+## TODO:
+
+- Finish setting up the coverage status thing
+- Actually make a game prototype
 
 ## give money
 
