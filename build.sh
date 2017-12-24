@@ -16,8 +16,8 @@ find . -iname "*.lua" | xargs luac -p || { echo 'luac parse test failed' ; exit 
 mkdir "target"
 
 ### .love
-cp -r $TRAVIS_BUILD_DIR $TRAVIS_BUILD_DIR/target	
-cd $TRAVIS_BUILD_DIR/target
+rsync -Rr ./ ./target/ # fuk cp it doesn't work
+cd target
 
 ###remove things we don't want in the .love
 rm .gitignore
