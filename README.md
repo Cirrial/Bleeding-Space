@@ -12,7 +12,6 @@ An upcoming webgame from the dude who made Shark Game and then did nothing with 
 
 ## TODO:
 
-- Finish setting up the coverage status thing
 - Actually make a game prototype
 
 ## give money
