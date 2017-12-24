@@ -8,7 +8,7 @@ addons:
     - python2.7
     - luarocks
 before_install:
-  - luarocks install --local lpeg
+  - luarocks install --local luacheck
   - "`luarocks path`" # execute the luarocks output - sets the paths for 'local' tree
   - chmod +x build.sh
 

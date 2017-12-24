@@ -13,18 +13,24 @@ fi
 
 ##### build #####
 find . -iname "*.lua" | xargs luac -p || { echo 'luac parse test failed' ; exit 1; }
+rm -rf "target"
 mkdir "target"
 
 ### .love
 rsync -Rr ./ ./target/ # fuk cp it doesn't work
 cd target
 
-###remove things we don't want in the .love
+### remove things we don't want in the .love
+rmdir target
+rm -rf ".git"
 rm .gitignore
 rm .travis.yml
 rm README.md
 rm LICENSE
 rm build.sh
+
+### remove certain files, they don't need to be in the thing
+find . \( -name "*.ase" -or -name "*.love" \) -type f -delete
 
 # .love file
 zip -9 -r - . > "../${P}.love"
