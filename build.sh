@@ -16,7 +16,7 @@ find . -iname "*.lua" | xargs luac -p || { echo 'luac parse test failed' ; exit 
 mkdir "target"
 
 ### .love
-cp -r target	
+cp -r . target	
 cd target
 
 ###remove things we don't want in the .love
