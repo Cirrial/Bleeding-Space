@@ -16,8 +16,8 @@ find . -iname "*.lua" | xargs luac -p || { echo 'luac parse test failed' ; exit 
 mkdir "target"
 
 ### .love
-cp -r . target	
-cd target
+cp -r $TRAVIS_BUILD_DIR $TRAVIS_BUILD_DIR/target	
+cd $TRAVIS_BUILD_DIR/target
 
 ###remove things we don't want in the .love
 rm .gitignore
