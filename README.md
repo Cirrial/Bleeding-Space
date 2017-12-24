@@ -2,8 +2,6 @@
 ## badges are fun
 [![Build Status](https://travis-ci.org/Cirrial/Bleeding-Space.svg?branch=master)](https://travis-ci.org/Cirrial/Bleeding-Space)
 
-[![Dependencies](https://david-dm.org/Cirrial/Bleeding-Space.svg)](https://david-dm.org/Cirrial/Bleeding-Space)
-
 [![Cirr](https://img.shields.io/badge/cirr-yes-blue.svg)](http://cirri.al)
 
 ## what is game
