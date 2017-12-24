@@ -16,11 +16,15 @@ find . -iname "*.lua" | xargs luac -p || { echo 'luac parse test failed' ; exit 
 mkdir "target"
 
 ### .love
-cp -r src target	
-cd target/src
+cp -r target	
+cd target
 
-# compile .ink story into lua table so the runtime will not need lpeg dep.
-lua lib/pink/pink/pink.lua parse game.ink > game.lua
+###remove things we don't want in the .love
+rm .gitignore
+rm .travis.yml
+rm README.md
+rm LICENSE
+rm build.sh
 
 # .love file
 zip -9 -r - . > "../${P}.love"
